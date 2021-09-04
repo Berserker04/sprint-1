@@ -78,7 +78,8 @@ h1, h2, h3 {
     justify-content: center;
 }
 .nav-bg {
-    background-color: var(--secundario);
+    background-color: rgba(19, 19, 150, 0.323);
+    background-image: url("img/screen-4.jpg");
 }
 .navegacionPrincipal  {
     display: flex;
@@ -169,10 +170,23 @@ h1, h2, h3 {
 
 }
 
-.servicio .iconos {
+.servicio .noticia1 {
     height: 15rem;
     width: 15rem;
     background-color: var(--primario);
     border-radius: 50%;
+}
+.servicio .col-izq nav {
+    display: flex;    /*estas lineas aliniean vetical y horizontalmente */
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+
+.servicio .col-der nav {
+    display: flex;    /*estas lineas aliniean vetical y horizontalmente */
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
 }
 
