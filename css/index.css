@@ -76,8 +76,8 @@
 .fondo{
     display:block;
     width:100%;
-    height:500px;
-    background-image: url("../css/fondo2.jpg");
+    height:100%;
+    background-image: url("../css/screen-4.jpg");
     background-repeat:no-repeat;
     background-size:cover;
     position:absolute;
