@@ -41,6 +41,44 @@ h1 {
     background-color: #212121;
     color: #fff;
 }
+
+.servicios :hover{
+    filter: hue-rotate(0deg);
+    text-shadow:2px 2px 10px #03e9f4,-2px -2px 10px #03e9f4,2px -2px 10px #03e9f4;
+    /* background-image: linear-gradient(to bottom, #e8f2f1, #c8d1d1, #a9b1b2, #8b9294, #6f7476); */
+}
+
+
+
+
+.noticia1:hover{
+
+    text-shadow:2px 2px 10px #f80000 ,-2px -2px 10px #f80000 ,2px -2px 10px #f80000;
+}
+
+.noticia2:hover{
+
+    text-shadow:2px 2px 10px #3ef800 ,-2px -2px 10px #3ef800 ,2px -2px 10px #3ef800;
+}
+
+.noticia3:hover{
+
+    text-shadow:2px 2px 10px #f800f8 ,-2px -2px 10px #f800f8 ,2px -2px 10px #f800f8;
+}
+
+.noticia4:hover{
+
+    text-shadow:2px 2px 10px #cbf800 ,-2px -2px 10px #cbf800 ,2px -2px 10px #cbf800;
+}
+
+.nav__menu a i{
+    display:inline-block;
+    margin-right:6px;
+}
+.nav__menu a i{
+    display:inline-block;
+    margin-right:6px;
+}
 h2 {
     font-size: 2.8rem;
 }
@@ -49,6 +87,7 @@ h3 {
 }
 h1, h2, h3 {
     text-align: center;
+    color: #fff;
 }
 
 .boton {
@@ -177,12 +216,7 @@ h1, h2, h3 {
 
 
 
-.servicios .noticia1 {
-    height: 15rem;
-    width: 15rem;
-    background-color: var(--primario);
-    border-radius: 50%;
-}
+
 .servicios .col-izq nav {
     display: flex;    /*estas lineas aliniean vetical y horizontalmente */
     flex-direction: column;
