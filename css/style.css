@@ -22,7 +22,7 @@ body {
     
     font-size: 16px; /*todo documento las lineas anteriores hacen que todo documento use 1rem como 10px */
     font-family: 'Krub', sans-serif;
-    background-image: linear-gradient(to top, var(--azul) 0%, var(--blanco) 100%);
+    background-image: url("../views/img/fondoNews.jpg");
 }
 
 .sombra {
@@ -38,6 +38,8 @@ body {
 /*tipografia*/
 h1 {
     font-size: var(--fuentaPpal);
+    background-color: #212121;
+    color: #fff;
 }
 h2 {
     font-size: 2.8rem;
@@ -79,7 +81,7 @@ h1, h2, h3 {
 }
 .nav-bg {
     background-color: rgba(19, 19, 150, 0.323);
-    background-image: url("img/screen-4.jpg");
+    background-image: url("../views/img/screen-4.jpg");
 }
 .navegacionPrincipal  {
     display: flex;
@@ -119,7 +121,7 @@ h1, h2, h3 {
     object-fit:contain;
     position:absolute;
     top:-25px;
-    left:-1px;
+    left:-10px;
     z-index:1;
     filter: drop-shadow(0 0 5px #fff) brightness(2) saturate(180%);
 }
@@ -151,11 +153,18 @@ h1, h2, h3 {
 }
 
 /*servicios*/
+
+.contenedor {
+    background-color: #212121;
+    opacity:1;
+}
 @media (min-width: 768px) {
     .servicios {
         display: grid;
-        grid-template-columns:repeat(3, 1fr);
+        grid-template-columns:repeat(2, 1fr);
         column-gap: 1rem;
+        background-image: url("../views/img/puño.jpg");
+        background-repeat: round;
     }
 }
 
@@ -166,27 +175,35 @@ h1, h2, h3 {
     justify-content: center;
 }
 
-.servicio h3 {
 
-}
 
-.servicio .noticia1 {
+.servicios .noticia1 {
     height: 15rem;
     width: 15rem;
     background-color: var(--primario);
     border-radius: 50%;
 }
-.servicio .col-izq nav {
+.servicios .col-izq nav {
     display: flex;    /*estas lineas aliniean vetical y horizontalmente */
     flex-direction: column;
     align-items: center;
     justify-content: left;
 }
 
-.servicio .col-der nav {
+.servicios .col-der nav {
     display: flex;    /*estas lineas aliniean vetical y horizontalmente */
     flex-direction: column;
     align-items: center;
     justify-content: right;
+}
+
+.servicios {
+    background-image: url("../views/img/puño.jpg");
+    background-repeat: round;
+    opacity: 1;
+}
+
+p {
+    color: #fff;
 }
 

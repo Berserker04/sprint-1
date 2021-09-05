@@ -1,6 +1,7 @@
 /* header */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
 *{
     padding:0;
     margin:0;
@@ -23,7 +24,17 @@
     background:rgba(0, 0, 0, 0.1);
     position:relative;
     border-bottom: 1px solid rgba(5, 5, 5, 1);
+    background-image: url("../views/img/screen-4.jpg");
 }
+
+@media (min-width: 768px) {
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
 
 .nav__menu a{
     display:inline-block;
@@ -79,7 +90,6 @@
     display:block;
     width:100%;
     height:100%;
-    background-image: url("puño.jpg");
     background-repeat:no-repeat;
     background-size:cover;
     position:absolute;
@@ -122,16 +132,30 @@
     cursor: pointer;
 }
 
-@media (min-width: 768px) {
-    .nav {
-        flex-direction: row;
+@media (min-width: 750px) {
+    .nav__menu{
+        flex-direction: block;
         justify-content: space-between;
+    }
+    
+}
+@media (max-width: 750px) {
+    .nav__menu{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
     .boton {
         width: auto;
     }
     
 }
+
+    .boton {
+        width: auto;
+    }
+    
+
 hr{
     position:relative;
     background:#fff;
@@ -149,6 +173,7 @@ hr{
 .grid div {
     padding: 1em;
     grid-template-rows: 50% 50%;
+    align-items: center;
 }
 
 .grid div:hover {
@@ -159,8 +184,6 @@ hr{
     display: grid;
     grid-template-rows: 50% 50%;
 }
-.lienzo {
-    background-color: rgba(0, 0, 0, 1);
-}
+
 
 /* footer */
