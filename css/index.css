@@ -10,6 +10,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight:bold;
     position: relative;
+    height: 500px;
 }
 .nav__menu{
     display:flex;
@@ -80,6 +81,7 @@
     background-image: url("../css/fondo2.jpg");
     background-repeat:no-repeat;
     background-size:cover;
+    background-position-y: -140px;
     position:absolute;
     top:0;
    
