@@ -24,7 +24,7 @@
     background:rgba(0, 0, 0, 0.1);
     position:relative;
     border-bottom: 1px solid rgba(5, 5, 5, 1);
-    background-image: url("../views/img/screen-4.jpg");
+    background-image: url("../css/fondo2.jpg");
 }
 
 @media (min-width: 768px) {
